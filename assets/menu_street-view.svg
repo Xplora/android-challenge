@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.779" height="19.779" viewBox="0 0 19.779 19.779">
+  <g id="street-view" transform="translate(0.3 0.3)">
+    <g id="compass" transform="translate(0 0)">
+      <path id="Caminho_311" data-name="Caminho 311" d="M19.667,13.029,8.236,18.275a.32.32,0,0,0,.081.606l5.061.848.578,4.779a.32.32,0,0,0,.263.276.311.311,0,0,0,.054,0,.319.319,0,0,0,.286-.178l5.527-11.15a.319.319,0,0,0-.42-.432Zm-5.205,10.34-.478-3.954a.32.32,0,0,0-.265-.277l-4.271-.716,9.665-4.436Z" transform="translate(-5.477 -8.844)" fill="#222" stroke="#222" stroke-width="0.6"/>
+      <path id="Caminho_312" data-name="Caminho 312" d="M9.589,0a9.589,9.589,0,1,0,9.589,9.589A9.6,9.6,0,0,0,9.589,0Zm0,18.54a8.95,8.95,0,1,1,8.95-8.95A8.96,8.96,0,0,1,9.589,18.54Z" fill="#222" stroke="#222" stroke-width="0.6"/>
+    </g>
+  </g>
+</svg>

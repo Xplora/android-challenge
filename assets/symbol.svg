@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.871" height="18.886" viewBox="0 0 18.871 18.886">
+  <g id="Grupo_616" data-name="Grupo 616" transform="translate(-257.978 -745.986)">
+    <g id="Ellipse_610_copy_3" data-name="Ellipse 610 copy 3" transform="translate(257.978 745.986)" fill="none" stroke="#222" stroke-width="1">
+      <ellipse cx="9.435" cy="9.443" rx="9.435" ry="9.443" stroke="none"/>
+      <ellipse cx="9.435" cy="9.443" rx="8.935" ry="8.943" fill="none"/>
+    </g>
+    <g id="Grupo_163" data-name="Grupo 163" transform="translate(263.986 750.146)">
+      <path id="Caminho_287" data-name="Caminho 287" d="M319.993,141.925v-.334c0-2.188,0-4.375,0-6.563a.748.748,0,0,1,.666-.783.72.72,0,0,1,.783.745c0,.9,0,1.791,0,2.686q0,2.023,0,4.047v.194c.07-.063.114-.1.154-.14l1.458-1.452a.726.726,0,0,1,1.059-.021.716.716,0,0,1-.038,1.046q-1.394,1.4-2.789,2.789a.729.729,0,0,1-1.121,0q-1.4-1.394-2.789-2.789a.725.725,0,1,1,1.023-1.025q.715.715,1.428,1.434C319.866,141.805,319.911,141.847,319.993,141.925Z" transform="translate(-317.132 -134.243)" fill="#222"/>
+    </g>
+  </g>
+</svg>
