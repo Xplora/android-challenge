@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragment_splash">
+
+    <fragment
+        android:id="@+id/fragment_splash"
+        android:name="com.xplora.challenge.ui.fragment.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_fragment_splash_to_fragment_login"
+            app:destination="@id/fragment_login"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/fragment_splash"/>
+        <action
+            android:id="@+id/action_fragment_splash_to_moduleListFragment"
+            app:destination="@id/fragment_moduleList"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/fragment_splash"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.xplora.challenge.ui.fragment.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_fragment_login_to_moduleListFragment"
+            app:destination="@id/fragment_moduleList"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/fragment_splash"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_moduleList"
+        android:name="com.xplora.challenge.ui.fragment.ModuleListFragment"
+        android:label="ModuleListFragment"
+        tools:layout="@layout/fragment_module_list">
+        <action
+            android:id="@+id/action_fragment_moduleList_to_moduleDetailFragment"
+            app:destination="@id/fragment_moduleDetail" >
+            <argument
+                android:name="imageUrl"
+                app:argType="string"
+                app:nullable="true" />
+            <argument
+                android:name="title"
+                app:argType="string"
+                app:nullable="true" />
+            <argument
+                android:name="description"
+                app:argType="string"
+                app:nullable="true" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_moduleDetail"
+        android:name="com.xplora.challenge.ui.fragment.ModuleDetailFragment"
+        android:label="fragment_module_detail"
+        tools:layout="@layout/fragment_module_detail" >
+        <argument
+            android:name="imageUrl"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="description"
+            app:argType="string"
+            app:nullable="true" />
+
+    </fragment>
+
+</navigation>

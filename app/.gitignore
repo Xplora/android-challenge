@@ -1,0 +1,6 @@
+# Ignore gradle files
+.gradle
+/build
+/src/test
+/src/main/gen
+/src/androidTest
