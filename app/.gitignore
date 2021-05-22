@@ -1,4 +1,5 @@
 # Ignore gradle files
+.idea
 .gradle
 /build
 /src/test
